@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BirdEd</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e1f5fe;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://www.transparenttextures.com/patterns/birds.png');
+      background-repeat: repeat;
+    }
+
+    header {
+      background-color: #0288d1;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .search-container {
+      text-align: center;
+      margin: 30px;
+    }
+
+    input[type="text"] {
+      width: 80%;
+      max-width: 500px;
+      padding: 15px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .categories {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .category {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 200px;
+      text-align: center;
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+      transition: transform 0.2s;
+    }
+
+    .category:hover {
+      transform: scale(1.05);
+    }
+
+    .category img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0288d1;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BirdEd</h1>
+    <p>Explore the world of UK birds</p>
+  </header>
+
+  <div class="search-container">
+    <input type="text" placeholder="Search for a bird (e.g. 'robin')...">
+  </div>
+
+  <div class="categories">
+    <a href="birds-of-prey.html" class="category">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Common_buzzard_%28Buteo_buteo%29.jpg/320px-Common_buzzard_%28Buteo_buteo%29.jpg" alt="Birds of Prey">
+      <h3>Birds of Prey</h3>
+    </a>
+    <a href="garden-birds.html" class="category">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/European_robin_in_a_tree.jpg" alt="Garden Birds">
+      <h3>Garden Birds</h3>
+    </a>
+    <a href="water-birds.html" class="category">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Mallard_drake_in_flight.jpg" alt="Water Birds">
+      <h3>Water Birds</h3>
+    </a>
+    <a href="shorebirds.html" class="category">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Charadrius_hiaticula_%28cropped%29.jpg" alt="Shorebirds">
+      <h3>Shorebirds</h3>
+    </a>
+    <a href="woodland-birds.html" class="category">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Blue_Tit_-_Great_Pic.jpg" alt="Woodland Birds">
+      <h3>Woodland Birds</h3>
+    </a>
+    <a href="nocturnal-birds.html" class="category">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Tawny_owl_strix_aluco.jpg" alt="Nocturnal Birds">
+      <h3>Nocturnal Birds</h3>
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 BirdEd. Created by Eddie.
+  </footer>
+</body>
+</html>
